@@ -5,47 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ffbe444-d37c-4f4b-b014-9a9fd2b7dd0b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_digester_commons_digester_1_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_ajax4jsf_ajax4jsf_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/ChangePasswordBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/LocationBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/PlaceBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/UserLocationAssotiation.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/javax_servlet_jsp_jsp_api_2_2_1_b03.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/org_springframework_security_spring_security_jboss_2_0_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/ChangePassword.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/Dashboard.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/dashboard/BrowserFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/dashboard/ChangePasswordBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/dashboard/DashboardBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/lib/commons-codec-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/lib/commons-collections-3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/lib/jboss-common-3.2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/lib/jbosssx-3.2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/lib/spring-aop-2.0.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/lib/spring-beans-2.0.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/lib/spring-context-2.0.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/lib/spring-core-2.0.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/lib/spring-security-core-2.0.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/lib/spring-security-jboss-2.0.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/lib/spring-support-2.0.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/error.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/login.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/dashboard/BrowserFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/dashboard/ChangePasswordBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/dashboard/DashboardBean.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/BrowserFilter.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/filter/BrowserFilter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/ChangePasswordBean.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/ChangePasswordManagedBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/DashboardBean.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/DashboardManagedBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/ChangePassword.xhtml" afterPath="$PROJECT_DIR$/web/app/ChangePassword.xhtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/Dashboard.xhtml" afterPath="$PROJECT_DIR$/web/app/Dashboard.xhtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/error.jsp" afterPath="$PROJECT_DIR$/web/app/error.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/app/index.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/login.xhtml" afterPath="$PROJECT_DIR$/web/app/login.xhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TicketMachine.class" afterPath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TicketMachine.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/helpers/Main.class" afterPath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/helpers/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/helpers/PasswordGenerator.class" afterPath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/helpers/PasswordGenerator.class" />
@@ -54,19 +13,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/helpers/Main.class" afterPath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/helpers/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/helpers/PasswordGenerator.class" afterPath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/helpers/PasswordGenerator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/model/ParkingPlaceState.class" afterPath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/model/ParkingPlaceState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ParkingMeterAssistant_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ParkingMeterAssistant_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/93b68b95-9261-4725-9b08-94f4f945722d.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/93b68b95-9261-4725-9b08-94f4f945722d.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParkingMeterAssistant.iml" afterPath="$PROJECT_DIR$/ParkingMeterAssistant.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/hibernate.cfg.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TicketMachine.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TicketMachine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/helpers/Main.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/helpers/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/helpers/PasswordGenerator.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/helpers/PasswordGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/ParkingPlaceState.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/ParkingPlaceState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -193,9 +143,11 @@
       <file leaf-file-name="TicketMachine.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TicketMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-364">
-              <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-              <folding />
+            <state relative-caret-position="11">
+              <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1366,10 +1318,18 @@
       <workItem from="1497127531305" duration="11023000" />
       <workItem from="1497181435321" duration="1154000" />
     </task>
+    <task id="LOCAL-00001" summary="polling problem">
+      <created>1497209862370</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1497209862370</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71490000" />
+    <option name="totallyTimeSpent" value="71569000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1460,6 +1420,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="polling problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="polling problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1944,9 +1908,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TicketMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-364">
-          <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="11">
+          <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
