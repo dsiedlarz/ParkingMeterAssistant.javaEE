@@ -1,5 +1,7 @@
 package edu.dsiedlarz.ParkingMeterAssistant.dashboard;
 
+import edu.dsiedlarz.ParkingMeterAssistant.beans.ChangePasswordBean;
+import edu.dsiedlarz.ParkingMeterAssistant.beans.LocationBean;
 import edu.dsiedlarz.ParkingMeterAssistant.helpers.HibernateSessionFactory;
 import edu.dsiedlarz.ParkingMeterAssistant.model.*;
 import org.apache.tools.ant.taskdefs.condition.Not;
@@ -9,6 +11,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.springframework.security.AuthenticationManager;
 
+import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
@@ -28,9 +31,12 @@ import java.util.List;
  */
 @ManagedBean(name = "dashboardBean", eager = true)
 @SessionScoped
-public class DashboardBean {
+public class DashboardManagedBean {
 
     private Location location;
+
+    @EJB
+    private LocationBean locationBean;
 
     public Location getLocation() {
         return location;
@@ -41,28 +47,7 @@ public class DashboardBean {
     }
 
     public ArrayList<Location> getLocations() {
-        ArrayList<Location> locations = new ArrayList<>();
-        SessionFactory sessionFactory = HibernateSessionFactory.getSessionFactory();
-        Session session = null;
-
-        try {
-            session = sessionFactory.getCurrentSession();
-        } catch (org.hibernate.HibernateException he) {
-            session = sessionFactory.openSession();
-        }
-        Transaction tx = session.beginTransaction();
-
-
-        //noinspection JpaQlInspection
-        List locationsList = session.createQuery("from Location").list();
-        for (Iterator iter = locationsList.iterator(); iter.hasNext(); ) {
-            locations.add((Location) iter.next());
-        }
-
-        tx.commit();
-        session.close();
-
-        return locations;
+       return locationBean.getLocations();
     }
 
     public ArrayList<Notification> getActiveNotifications() {

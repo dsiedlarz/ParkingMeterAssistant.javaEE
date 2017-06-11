@@ -1,39 +1,36 @@
-package edu.dsiedlarz.ParkingMeterAssistant.dashboard;
+package edu.dsiedlarz.ParkingMeterAssistant.beans;
 
 import edu.dsiedlarz.ParkingMeterAssistant.helpers.HibernateSessionFactory;
-import edu.dsiedlarz.ParkingMeterAssistant.model.Notification;
 import edu.dsiedlarz.ParkingMeterAssistant.model.User;
-import org.codehaus.jettison.json.JSONArray;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.jboss.security.Util;
 
-import javax.faces.bean.ManagedBean;
-import javax.faces.bean.SessionScoped;
+import javax.ejb.Stateless;
 import javax.faces.context.FacesContext;
 import javax.servlet.http.HttpServletRequest;
-import javax.ws.rs.core.Response;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by private on 11.06.2017.
  */
-@ManagedBean(name = "changePasswordBean", eager = true)
-@SessionScoped
+@Stateless(name = "ChangePasswordEJB")
 public class ChangePasswordBean {
+    public ChangePasswordBean() {
+    }
 
-    public void changePassword(String user) {
+    public void changePassword(String user, String password) {
         HttpServletRequest origRequest = (HttpServletRequest) FacesContext.getCurrentInstance().getExternalContext().getRequest();
 
         String newPassword = origRequest.getParameter("newPassword");
         System.out.println("newPassword " + newPassword);
-        String hashedPassword = Util.createPasswordHash("MD5",
-                Util.BASE64_ENCODING,
-                null,
-                null,
-                "test");
+//        String hashedPassword = Util.createPasswordHash("MD5",
+//                Util.BASE64_ENCODING,
+//                null,
+//                null,
+//                "test");
     }
 
 
@@ -74,6 +71,4 @@ public class ChangePasswordBean {
 
         return users;
     }
-
-
 }
