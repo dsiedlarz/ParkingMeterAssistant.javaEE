@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="com.sun.faces:jsf-api:2.1.2" type="repository">
+    <properties maven-id="com.sun.faces:jsf-api:2.1.2" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/faces/jsf-api/2.1.2/jsf-api-2.1.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/el/el-api/1.0/el-api-1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jstl/jstl/1.2/jstl-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

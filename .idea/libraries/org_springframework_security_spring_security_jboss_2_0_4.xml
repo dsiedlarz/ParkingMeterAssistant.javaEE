@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="org.springframework.security:spring-security-jboss:2.0.4" type="repository">
+    <properties maven-id="org.springframework.security:spring-security-jboss:2.0.4" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-jboss/2.0.4/spring-security-jboss-2.0.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jboss/jbosssx/3.2.3/jbosssx-3.2.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jboss/jboss-common/3.2.3/jboss-common-3.2.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/2.0.8/spring-beans-2.0.8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/2.0.8/spring-core-2.0.8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/2.0.8/spring-context-2.0.8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/2.0.4/spring-security-core-2.0.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/2.0.8/spring-aop-2.0.8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-support/2.0.8/spring-support-2.0.8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.3/commons-codec-1.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2/commons-collections-3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

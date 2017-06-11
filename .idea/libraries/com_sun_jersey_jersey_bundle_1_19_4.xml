@@ -1,0 +1,69 @@
+<component name="libraryTable">
+  <library name="com.sun.jersey:jersey-bundle:1.19.4" type="repository">
+    <properties maven-id="com.sun.jersey:jersey-bundle:1.19.4" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-bundle/1.19.4/jersey-bundle-1.19.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-grizzly/1.19.4/jersey-grizzly-1.19.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-servlet/1.19.4/jersey-servlet-1.19.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-server/1.19.4/jersey-server-1.19.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-core/1.19.4/jersey-core-1.19.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-client/1.19.4/jersey-client-1.19.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-atom/1.19.4/jersey-atom-1.19.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/rome/rome/0.9/rome-0.9.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jdom/jdom/1.0/jdom-1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-json/1.19.4/jersey-json-1.19.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/xml/bind/jaxb-api/2.1/jaxb-api-2.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/activation/activation/1.1/activation-1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-jaxrs/1.9.2/jackson-jaxrs-1.9.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-xc/1.9.2/jackson-xc-1.9.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-fastinfoset/1.19.4/jersey-fastinfoset-1.19.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/xml/fastinfoset/FastInfoset/1.2.9/FastInfoset-1.2.9.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/xml/jsr173/1.0/jsr173-1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/mail/mail/1.4/mail-1.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/org.eclipse.persistence.moxy/2.3.4-M6/org.eclipse.persistence.moxy-2.3.4-M6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/org.eclipse.persistence.core/2.3.4-M6/org.eclipse.persistence.core-2.3.4-M6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/org.eclipse.persistence.asm/2.3.4-M6/org.eclipse.persistence.asm-2.3.4-M6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/org.eclipse.persistence.antlr/2.3.4-M6/org.eclipse.persistence.antlr-2.3.4-M6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/jsp-api/2.0/jsp-api-2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/javax.ejb/3.1/javax.ejb-3.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/javax.transaction/3.1/javax.transaction-3.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/javax.annotation/3.1/javax.annotation-3.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/weld/weld-osgi-bundle/1.1.32.Final/weld-osgi-bundle-1.1.32.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/enterprise/cdi-api/1.0-SP4/cdi-api-1.0-SP4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.0.Beta1/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/inject/javax.inject/1/javax.inject-1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/weld/weld-api/1.1.Final/weld-api-1.1.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/weld/weld-core/1.1.32.Final/weld-core-1.1.32.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/weld/weld-spi/1.1.Final/weld-spi-1.1.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/13.0.1/guava-13.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-ext/1.7.2/slf4j-ext-1.7.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/ch/qos/cal10n/cal10n-api/0.7.7/cal10n-api-0.7.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/ant/ant/1.6.5/ant-1.6.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/grizzly/grizzly-servlet-webserver/1.9.45/grizzly-servlet-webserver-1.9.45.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/grizzly/grizzly-http/1.9.45/grizzly-http-1.9.45.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/grizzly/grizzly-framework/1.9.45/grizzly-framework-1.9.45.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/grizzly/grizzly-utils/1.9.45/grizzly-utils-1.9.45.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/grizzly/grizzly-lzma/1.9.45/grizzly-lzma-1.9.45.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/grizzly/grizzly-rcm/1.9.45/grizzly-rcm-1.9.45.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/grizzly/grizzly-portunif/1.9.45/grizzly-portunif-1.9.45.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/grizzly/grizzly-http-servlet/1.9.45/grizzly-http-servlet-1.9.45.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/net/httpserver/http/20070405/http-20070405.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/stax/stax-api/1.0.1/stax-api-1.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/osgi/org.osgi.core/4.2.0/org.osgi.core-4.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
