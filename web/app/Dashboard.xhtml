@@ -4,7 +4,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
-      xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:c="http://java.sun.com/jsp/jstl/core">
+      xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:a4j="https://ajax4jsf.dev.java.net/ajax">
 <f:view>
     <h:head>
         <style type="text/css">
@@ -43,9 +44,30 @@
                 top: 50px;
             }
 
+            .FREE {
+                background-color: gainsboro;
+            }
+
+            .TAKEN {
+                background-color: dodgerblue;
+            }
+
+            .PAID {
+                background-color: lawngreen;
+            }
+
+            .SUSPICIOUS {
+                background-color: red;
+            }
+
         </style>
     </h:head>
     <h:body>
+        <a4j:region>
+            <h:form>
+                <a4j:poll id="poll" interval="1000" enabled="true" reRender="notifications,stats,places"/>
+            </h:form>
+        </a4j:region>
         <div class="header-bar">
             <span class="logo">Parking Meter Assistant</span>
         </div>
@@ -76,6 +98,7 @@
                          styleClass="notfication-table"
                          headerClass="notfication-table-header"
                          rowClasses="notfication-table-odd-row, notfication-table-even-row"
+            id="notifications"
             >
 
                 <h:column>
@@ -117,11 +140,46 @@
             </h:dataTable>
 
             <br/><br/>
-            <c:set var="stats" value="#{dashboardBean.getPlacesStatus()}" />
-            Stats:
+            <div id="stats">
+                <c:set var="stats" value="#{dashboardBean.getPlacesStatus()}" />
+                Stats:
+                <br/>
+                Free: #{stats.getFree()}<br/>
+                Taken: #{stats.getTaken()}<br/>
+            </div>
+
+
             <br/>
-            Free: #{stats.getFree()}<br/>
-            Takent: #{stats.getTaken()}<br/>
+
+            <h:dataTable value="#{dashboardBean.getAllParkingPlaces()}" var="o"
+                         styleClass="places-table"
+                         headerClass="places-table-header"
+                         rowClasses="places-table-odd-row, places-table-even-row"
+
+                         id="places"
+            >
+
+                <h:column>
+                    <!-- column header -->
+                    <f:facet name="header">Place id</f:facet>
+                    <!-- row record -->
+                    <h:form>
+                        #{o.getId()}
+                    </h:form>
+                </h:column>
+
+                <h:column>
+                    <!-- column header -->
+                    <f:facet name="header">Status</f:facet>
+                    <!-- row record -->
+                    <h:form>
+                        <h:outputLabel styleClass="#{o.getState()}" value="#{o.getState()}"/>
+                    </h:form>
+                </h:column>
+
+            </h:dataTable>
+
+
 
             <div class="menu">
 
@@ -134,9 +192,9 @@
                 <h:form>
                     <h:commandLink value="Logout" action="#{dashboardBean.logout()}"/>
                 </h:form>
-
-
             </div>
+
+
         </div>
     </h:body>
 </f:view>

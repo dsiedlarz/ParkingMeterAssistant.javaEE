@@ -5,6 +5,8 @@ package edu.dsiedlarz.ParkingMeterAssistant.model;
  */
 public enum ParkingPlaceState {
     FREE,
-    TAKEN
+    TAKEN,
+    PAID,
+    SUSPICIOUS
 }
 

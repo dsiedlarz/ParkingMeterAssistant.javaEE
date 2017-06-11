@@ -75,7 +75,7 @@ public class Main {
         Query query = session.createQuery("from Location WHERE id = 1");
         Location location = (Location) query.list().get(0);
 
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 25; i++) {
 
             ParkingPlace parkingPlace = new ParkingPlace();
             parkingPlace.setState(ParkingPlaceState.FREE);
@@ -84,6 +84,20 @@ public class Main {
             session.save(parkingPlace);
 
         }
+
+         query = session.createQuery("from Location WHERE id = 2");
+         location = (Location) query.list().get(0);
+
+        for (int i = 0; i < 25; i++) {
+
+            ParkingPlace parkingPlace = new ParkingPlace();
+            parkingPlace.setState(ParkingPlaceState.FREE);
+            parkingPlace.setLocation(location);
+            /** Saving POJO */
+            session.save(parkingPlace);
+
+        }
+
         tx.commit();
         System.out.println("Record Inserted");  /** Closing Session */
         session.close();
@@ -91,12 +105,13 @@ public class Main {
 
     private static void generateDatabase() {
         AnnotationConfiguration config = new AnnotationConfiguration();
-        config.addAnnotatedClass(Location.class);
-        config.addAnnotatedClass(ParkingMeter.class);
-        config.addAnnotatedClass(ParkingPlace.class);
-        config.addAnnotatedClass(Ticket.class);
-        config.addAnnotatedClass(Notification.class);
-        config.addAnnotatedClass(TicketPlaceAssociation.class);
+//        config.addAnnotatedClass(Location.class);
+//        config.addAnnotatedClass(ParkingMeter.class);
+//        config.addAnnotatedClass(ParkingPlace.class);
+//        config.addAnnotatedClass(Ticket.class);
+//        config.addAnnotatedClass(Notification.class);
+//        config.addAnnotatedClass(TicketPlaceAssociation.class);
+        config.addAnnotatedClass(UserLocationAssotiation.class);
         config.configure("hibernate.cfg.xml");
         new SchemaExport(config).create(true, true);
 

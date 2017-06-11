@@ -3,17 +3,11 @@ package edu.dsiedlarz.ParkingMeterAssistant.Simulator;
 import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.WebResource;
-import edu.dsiedlarz.ParkingMeterAssistant.helpers.JMSEventSender;
-import org.apache.tools.ant.util.DateUtils;
 import org.codehaus.jettison.json.JSONObject;
-import org.jboss.security.Util;
+import org.apache.commons.digester.Digester;
 
-import java.io.IOException;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
-import java.util.Date;
 
 /**
  * Created by private on 04.06.2017.

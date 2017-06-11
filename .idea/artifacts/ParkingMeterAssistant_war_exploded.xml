@@ -18,9 +18,11 @@
           <element id="library" level="project" name="com.sun.faces:jsf-api:2.1.2" />
           <element id="library" level="project" name="log4j:log4j:1.2.17" />
           <element id="library" level="project" name="org.hibernate:hibernate:3.2.7.ga" />
-          <element id="library" level="project" name="org.springframework.security:spring-security-jboss:2.0.4" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="org.ajax4jsf:ajax4jsf:1.0.2" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="ParkingMeterAssistant/ejb/EJB" />
     </root>
   </artifact>
 </component>

@@ -1,4 +1,4 @@
-package edu.dsiedlarz.ParkingMeterAssistant.dashboard;
+package edu.dsiedlarz.ParkingMeterAssistant.filter;
 
 import javax.ejb.Singleton;
 import javax.servlet.*;
