@@ -1,22 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="dbDummy://dbtable:/da2944f1/93b68b95-9261-4725-9b08-94f4f945722d/ParkingMeterAssistant.public.ticket" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="0ffbe444-d37c-4f4b-b014-9a9fd2b7dd0b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/rest/external/PlacesExternalApi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/soap/external/PlacesExternalApi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/soap/external/PlacesExternalApiImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/NotificationBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/TicketBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/TicketPlaceAssociationBean.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/org_ajax4jsf_ajax4jsf_1_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/ChangePassword.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/api/ParkingPlaceDetectorApi.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/api/ParkingPlaceDetectorApiImpl$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/api/ParkingPlaceDetectorApiImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/security/ConsoleCallbackHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/security/JaasTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/security/PassiveCallbackHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/security/RdbmsCredential.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/security/RdbmsLoginModule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/security/RdbmsPrincipal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/security/SessionLoginContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/security2/JAASCallbackHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/security2/JAASLoginModule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/security2/JAASPasswordPrincipal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/security2/JAASRolePrincipal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/security2/JAASUserPrincipal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/security2/TestBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/api/ParkingPlaceDetectorApi.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/api/ParkingPlaceDetectorApiImpl$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/api/ParkingPlaceDetectorApiImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/security/ConsoleCallbackHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/security/JaasTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/security/PassiveCallbackHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/security/RdbmsCredential.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/security/RdbmsLoginModule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/security/RdbmsPrincipal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/security/SessionLoginContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/security2/JAASCallbackHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/security2/JAASLoginModule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/security2/JAASPasswordPrincipal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/security2/JAASRolePrincipal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/security2/JAASUserPrincipal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/security2/TestBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security/ConsoleCallbackHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security/JaasTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security/PassiveCallbackHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security/RdbmsCredential.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security/RdbmsLoginModule.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security/RdbmsPrincipal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security/SessionLoginContext.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security2/JAASCallbackHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security2/JAASLoginModule.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security2/JAASPasswordPrincipal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security2/JAASRolePrincipal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security2/JAASUserPrincipal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security2/TestBean.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/ParkingPlaceDetectorApi.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/soap/ParkingPlaceDetectorApi.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/ParkingPlaceDetectorApiImpl.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/soap/ParkingPlaceDetectorApiImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/UserLocationAssotiation.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/UserLocationAssociation.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/ChangePassword.xhtml" afterPath="$PROJECT_DIR$/web/simulator.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/93b68b95-9261-4725-9b08-94f4f945722d/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/93b68b95-9261-4725-9b08-94f4f945722d/_metadata_/metadata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/93b68b95-9261-4725-9b08-94f4f945722d/_metadata_/metadata.values.at" afterPath="$PROJECT_DIR$/.idea/dataSources/93b68b95-9261-4725-9b08-94f4f945722d/_metadata_/metadata.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/Simulator/ParkingPlaceDetector.class" afterPath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/Simulator/ParkingPlaceDetector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TestBean.class" afterPath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TestBean.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TicketMachine.class" afterPath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TicketMachine.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/api/rest/NotificationHandler.class" afterPath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/api/rest/NotificationHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/api/rest/TicketsApi.class" afterPath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/api/rest/TicketsApi.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/dashboard/EventHandler.class" afterPath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/dashboard/EventHandler.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/helpers/Main.class" afterPath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/helpers/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/helpers/PasswordGenerator.class" afterPath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/helpers/PasswordGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/model/ParkingPlaceState.class" afterPath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/model/ParkingPlaceState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/model/ParkingPlace.class" afterPath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/model/ParkingPlace.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/model/PlaceStats.class" afterPath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/model/PlaceStats.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/model/Ticket.class" afterPath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/model/Ticket.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/model/TicketPlaceAssociation.class" afterPath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/edu/dsiedlarz/ParkingMeterAssistant/model/TicketPlaceAssociation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/Simulator/ParkingPlaceDetector.class" afterPath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/Simulator/ParkingPlaceDetector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TestBean.class" afterPath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TestBean.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TicketMachine.class" afterPath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TicketMachine.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/api/rest/NotificationHandler.class" afterPath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/api/rest/NotificationHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/api/rest/TicketsApi.class" afterPath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/api/rest/TicketsApi.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/dashboard/EventHandler.class" afterPath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/dashboard/EventHandler.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/helpers/Main.class" afterPath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/helpers/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/helpers/PasswordGenerator.class" afterPath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/helpers/PasswordGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/model/ParkingPlaceState.class" afterPath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/model/ParkingPlaceState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/model/ParkingPlace.class" afterPath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/model/ParkingPlace.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/model/PlaceStats.class" afterPath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/model/PlaceStats.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/model/Ticket.class" afterPath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/model/Ticket.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/model/TicketPlaceAssociation.class" afterPath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/edu/dsiedlarz/ParkingMeterAssistant/model/TicketPlaceAssociation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ParkingMeterAssistant_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ParkingMeterAssistant_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/93b68b95-9261-4725-9b08-94f4f945722d.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/93b68b95-9261-4725-9b08-94f4f945722d.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParkingMeterAssistant.iml" afterPath="$PROJECT_DIR$/ParkingMeterAssistant.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/classes/hibernate.cfg.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/ParkingMeterAssistant_war_exploded.war/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/out/production/ParkingMeterAssistant/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/Simulator/ParkingPlaceDetector.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/Simulator/ParkingPlaceDetector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TestBean.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TestBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/rest/NotificationHandler.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/rest/NotificationHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/rest/TicketsApi.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/rest/TicketsApi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/ChangePasswordBean.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/ChangePasswordBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/LocationBean.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/LocationBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/PlaceBean.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/PlaceBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/DashboardManagedBean.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/DashboardManagedBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/EventHandler.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/EventHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/filter/BrowserFilter.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/filter/BrowserFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/helpers/Main.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/helpers/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/ParkingPlace.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/ParkingPlace.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/PlaceStats.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/PlaceStats.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/Ticket.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/Ticket.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/TicketPlaceAssociation.java" afterPath="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/TicketPlaceAssociation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/Dashboard.xhtml" afterPath="$PROJECT_DIR$/web/app/Dashboard.xhtml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -106,7 +197,33 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="parkingplace" />
+        <option name="myItemId" value="ticketplaceassociation" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="ParkingMeterAssistant@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="ParkingMeterAssistant" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="public" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="notification" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -128,55 +245,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LocationBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/LocationBean.java">
+      <file leaf-file-name="PlacesExternalApi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/rest/external/PlacesExternalApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TicketMachine.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TicketMachine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11">
-              <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dashboard.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/app/Dashboard.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="67" column="103" lean-forward="false" selection-start-line="67" selection-start-column="103" selection-end-line="67" selection-end-column="103" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChangePasswordBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/ChangePasswordBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParkingPlaceState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/ParkingPlaceState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="-308">
+              <caret line="67" column="18" lean-forward="false" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -185,51 +258,89 @@
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+            <state relative-caret-position="604">
+              <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DashboardManagedBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/DashboardManagedBean.java">
+      <file leaf-file-name="PlacesExternalApi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/soap/external/PlacesExternalApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="47" column="34" lean-forward="false" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1288#1289#0" expanded="true" />
-                <element signature="e#1338#1339#0" expanded="true" />
-                <element signature="e#2733#2734#0" expanded="true" />
-                <element signature="e#2791#2792#0" expanded="true" />
-                <element signature="e#2852#2853#0" expanded="true" />
-                <element signature="e#2904#2905#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PasswordGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/helpers/PasswordGenerator.java">
+      <file leaf-file-name="PlacesExternalApiImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/soap/external/PlacesExternalApiImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TicketsApi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/rest/TicketsApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1110">
+              <caret line="98" column="31" lean-forward="false" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParkingPlaceDetectorApi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/soap/ParkingPlaceDetectorApi.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlaceBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/PlaceBean.java">
+      <file leaf-file-name="ParkingPlaceDetectorApiImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/soap/ParkingPlaceDetectorApiImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="79" column="70" lean-forward="false" selection-start-line="79" selection-start-column="70" selection-end-line="79" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBean.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TestBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1340">
+              <caret line="105" column="8" lean-forward="false" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simulator.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/simulator.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="127" column="47" lean-forward="false" selection-start-line="127" selection-start-column="47" selection-end-line="127" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParkingPlaceDetector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/Simulator/ParkingPlaceDetector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -240,22 +351,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="jsf" />
         <option value="Class" />
+        <option value="jsf" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>accept</find>
-      <find>ticket</find>
-      <find>Received</find>
-      <find>receiv</find>
-      <find>received</find>
-      <find>postTicket</find>
-      <find>notificat</find>
-      <find>configured for</find>
-      <find>initialize</find>
       <find>sharedState</find>
       <find>L</find>
       <find>LOGGER</find>
@@ -277,7 +379,23 @@
       <find>menu</find>
       <find>c</find>
       <find>placeB</find>
+      <find>post</find>
+      <find>postTicket</find>
+      <find>notifica</find>
+      <find>received</find>
+      <find>msg</find>
+      <find>Assotiation</find>
+      <find>.save</find>
+      <find>ws</find>
+      <find>api.ParkingMeterAssistant.dsiedlarz.edu/</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>Assotiation</replace>
+      <replace>Association</replace>
+      <replace>.saveOrUpdate</replace>
+      <replace>soap.api.ParkingMeterAssistant.dsiedlarz.edu/</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -290,32 +408,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/rest/TicketsApi.java" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/NotificationHandler.java" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/Event.java" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/EventHandler.java" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/helpers/LoginTest.java" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/helpers/LoginModule.java" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/helpers/PassiveCallbackHandler.java" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/helpers/RdbmsLoginModule.java" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security/RdbmsCredential.java" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security/RdbmsLoginModule.java" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security/ConsoleCallbackHandler.java" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security/SessionLoginContext.java" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security/JaasTest.java" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security/jaas.config" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security/TestBean.java" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security2/JAASRolePrincipal.java" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security2/JAASPasswordPrincipal.java" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security2/JAASUserPrincipal.java" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security2/JAASLoginModule.java" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security2/JAASCallbackHandler.java" />
-        <option value="$PROJECT_DIR$/src/jaas.config" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security2/TestBean.java" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/TicketPlaceAssociation.java" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/PlaceStats.java" />
         <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/Notification.java" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/rest/NotificationHandler.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/93b68b95-9261-4725-9b08-94f4f945722d/console.sql" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jboss-web.xml" />
         <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/BrowserFilter.java" />
@@ -323,24 +416,49 @@
         <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/User.java" />
         <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/ChangePasswordBean.java" />
         <option value="$PROJECT_DIR$/web/login.jsf" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/filter/BrowserFilter.java" />
         <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/DashboardBean.java" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/ChangePasswordManagedBean.java" />
         <option value="$PROJECT_DIR$/web/ChangePassword.xhtml" />
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/UserLocationAssotiation.java" />
         <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/helpers/Main.java" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/LocationBean.java" />
         <option value="$PROJECT_DIR$/web/login.xhtml" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/DashboardManagedBean.java" />
-        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/PlaceBean.java" />
         <option value="$PROJECT_DIR$/web/Dashboard.xhtml" />
         <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/ParkingPlaceState.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/helpers/PasswordGenerator.java" />
-        <option value="$PROJECT_DIR$/web/app/Dashboard.xhtml" />
         <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/ChangePasswordBean.java" />
         <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TicketMachine.java" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/ChangePasswordManagedBean.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/filter/BrowserFilter.java" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/rest/TicketsApi.java" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/NotificationBean.java" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/DashboardManagedBean.java" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/TicketPlaceAssociation.java" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/TicketPlaceAssotiationBean.java" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/TicketBean.java" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/Ticket.java" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/ParkingPlaceDetectorApiImpl.java" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/rest/NotificationHandler.java" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/PlaceBean.java" />
+        <option value="$PROJECT_DIR$/web/app/Dashboard.xhtml" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/EventHandler.java" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/TicketPlaceAssociationBean.java" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/PlaceStats.java" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/rest/PlacesExternalApi.java" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/LocationBean.java" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/ParkingPlace.java" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/rest/external/PlacesExternalApi.java" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/soap/ParkingPlaceDetectorApiImpl.java" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/Simulator/ParkingPlaceDetector.java" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/soap/PlacesExternalApi.java" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/soap/ParkingPlaceDetectorApiImplImpl.java" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/soap/PlacesExternalApiImpl.java" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/soap/ParkingPlaceDetectorApi.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/soap/external/PlacesExternalApiImpl.java" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/soap/external/PlacesExternalApi.java" />
+        <option value="$PROJECT_DIR$/web/simulator.xhtml" />
+        <option value="$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TestBean.java" />
       </list>
     </option>
   </component>
@@ -351,8 +469,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -370,9 +488,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -382,6 +500,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ParkingMeterAssistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ParkingMeterAssistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ParkingMeterAssistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -450,6 +582,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ParkingMeterAssistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Simulator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -584,6 +720,40 @@
               <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ParkingMeterAssistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ParkingMeterAssistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ParkingMeterAssistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="external" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -611,6 +781,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ParkingMeterAssistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ParkingMeterAssistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ParkingMeterAssistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="external" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -628,7 +828,7 @@
     <property name="database.data.extractors.current" value="SQL Inserts" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="FullScreen" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="Das&#9;PSI&#9;JAVA://edu.dsiedlarz.ParkingMeterAssistant.dashboard.DashboardManagedBean" />
+    <property name="SearchEverywhereHistoryKey" value="test&#9;FILE&#9;file:///Users/private/IdeaProjects/ParkingMeterAssistant/src/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TestBean.java&#10;Loca&#9;FILE&#9;file:///Users/private/IdeaProjects/ParkingMeterAssistant/src/edu/dsiedlarz/ParkingMeterAssistant/bean/LocationBean.java&#10;Plac&#9;FILE&#9;file:///Users/private/IdeaProjects/ParkingMeterAssistant/src/edu/dsiedlarz/ParkingMeterAssistant/bean/PlaceBean.java&#10;Ticket&#9;FILE&#9;file:///Users/private/IdeaProjects/ParkingMeterAssistant/src/edu/dsiedlarz/ParkingMeterAssistant/api/rest/TicketsApi.java&#10;Das&#9;FILE&#9;file:///Users/private/IdeaProjects/ParkingMeterAssistant/web/app/Dashboard.xhtml&#10;Event&#9;FILE&#9;file:///Users/private/IdeaProjects/ParkingMeterAssistant/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/EventHandler.java&#10;Even&#9;FILE&#9;file:///Users/private/IdeaProjects/ParkingMeterAssistant/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/EventHandler.java&#10;TicketPla&#9;FILE&#9;file:///Users/private/IdeaProjects/ParkingMeterAssistant/src/edu/dsiedlarz/ParkingMeterAssistant/model/TicketPlaceAssociation.java&#10;Tick&#9;FILE&#9;file:///Users/private/IdeaProjects/ParkingMeterAssistant/src/edu/dsiedlarz/ParkingMeterAssistant/model/Ticket.java&#10;EVe&#9;FILE&#9;file:///Users/private/IdeaProjects/ParkingMeterAssistant/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/EventHandler.java&#10;eve&#9;FILE&#9;file:///Users/private/IdeaProjects/ParkingMeterAssistant/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/EventHandler.java&#10;Eve&#9;FILE&#9;file:///Users/private/IdeaProjects/ParkingMeterAssistant/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/EventHandler.java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -636,6 +836,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.dsiedlarz.ParkingMeterAssistant.api.soap" />
       <recent name="edu.dsiedlarz.ParkingMeterAssistant.api.rest" />
       <recent name="edu.dsiedlarz.ParkingMeterAssistant.helpers" />
       <recent name="edu.dsiedlarz.ParkingMeterAssistant" />
@@ -701,26 +902,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="LoginTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="edu.dsiedlarz.ParkingMeterAssistant.security2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="edu.dsiedlarz.ParkingMeterAssistant.helpers.LoginTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ParkingMeterAssistant" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="JaasTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -749,6 +930,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="edu.dsiedlarz.ParkingMeterAssistant.helpers.PasswordGenerator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ParkingMeterAssistant" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ParkingPlaceDetector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.dsiedlarz.ParkingMeterAssistant.Simulator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="edu.dsiedlarz.ParkingMeterAssistant.Simulator.ParkingPlaceDetector" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1280,17 +1481,17 @@
       <item index="0" class="java.lang.String" itemvalue="JBoss Server.JBoss 10.2.0.Final" />
       <item index="1" class="java.lang.String" itemvalue="Application.Main" />
       <item index="2" class="java.lang.String" itemvalue="Application.TicketMachine" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LoginTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.JaasTest" />
-      <item index="5" class="java.lang.String" itemvalue="Application.PasswordGenerator" />
+      <item index="3" class="java.lang.String" itemvalue="Application.JaasTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PasswordGenerator" />
+      <item index="5" class="java.lang.String" itemvalue="Application.ParkingPlaceDetector" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.PasswordGenerator" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TicketMachine" />
-        <item index="3" class="java.lang.String" itemvalue="Application.JaasTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.LoginTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ParkingPlaceDetector" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PasswordGenerator" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TicketMachine" />
+        <item index="4" class="java.lang.String" itemvalue="Application.JaasTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1317,6 +1518,8 @@
       <workItem from="1496918351360" duration="405000" />
       <workItem from="1497127531305" duration="11023000" />
       <workItem from="1497181435321" duration="1154000" />
+      <workItem from="1497210768288" duration="9441000" />
+      <workItem from="1497293863946" duration="4595000" />
     </task>
     <task id="LOCAL-00001" summary="polling problem">
       <created>1497209862370</created>
@@ -1325,11 +1528,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497209862370</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="polling problem">
+      <created>1497209891696</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1497209891696</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71569000" />
+    <option name="totallyTimeSpent" value="86480000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1341,7 +1551,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1353,66 +1563,36 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19609375" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20181043" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32669324" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32739726" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4422311" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48415843" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45479453" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.253125" sideWeight="0.6880952" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31789136" sideWeight="0.575" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25282714" sideWeight="0.506986" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.253125" sideWeight="0.31190476" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31825525" sideWeight="0.425" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20274636" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32739726" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20547946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45479453" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32739726" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25686592" sideWeight="0.49301398" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25282714" sideWeight="0.506986" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32739726" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1436,217 +1616,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/helpers/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/da2944f1/93b68b95-9261-4725-9b08-94f4f945722d/ParkingMeterAssistant.public.location">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/da2944f1/93b68b95-9261-4725-9b08-94f4f945722d/ParkingMeterAssistant.public.parkingmeter">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/da2944f1/93b68b95-9261-4725-9b08-94f4f945722d/ParkingMeterAssistant.public.notification">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/ParkingPlaceDetectorApiImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="49" column="39" lean-forward="false" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#830#831#0" expanded="false" />
-            <element signature="e#906#907#0" expanded="false" />
-            <element signature="e#960#961#0" expanded="false" />
-            <element signature="e#1035#1036#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/da2944f1/93b68b95-9261-4725-9b08-94f4f945722d/ParkingMeterAssistant.public.parkingplace">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/93b68b95-9261-4725-9b08-94f4f945722d/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="29" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jaas.config" />
-    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TestBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/security2/TestBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jboss-web.xml">
-      <provider editor-type-id="com.intellij.javaee.oss.jboss.editor.JBossWebRootProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/sun-jaxws.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/faces/jsf-api/2.1.2/jsf-api-2.1.2.jar!/javax/faces/context/ExternalContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="109" column="37" lean-forward="false" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/jboss/jbosssx/3.2.3/jbosssx-3.2.3.jar!/org/jboss/security/AuthenticationManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/ChangePassword.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/javax/persistence/Table.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/Notification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/javax/persistence/Column.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#423#424#0" expanded="false" />
-            <element signature="e#448#449#0" expanded="false" />
-            <element signature="e#481#482#0" expanded="false" />
-            <element signature="e#509#510#0" expanded="false" />
-            <element signature="e#541#542#0" expanded="false" />
-            <element signature="e#569#570#0" expanded="false" />
-            <element signature="e#611#612#0" expanded="false" />
-            <element signature="e#645#646#0" expanded="false" />
-            <element signature="e#678#679#0" expanded="false" />
-            <element signature="e#707#708#0" expanded="false" />
-            <element signature="e#751#752#0" expanded="false" />
-            <element signature="e#787#788#0" expanded="false" />
-            <element signature="e#822#823#0" expanded="false" />
-            <element signature="e#853#854#0" expanded="false" />
-            <element signature="e#901#902#0" expanded="false" />
-            <element signature="e#941#942#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/rest/NotificationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="133" column="3" lean-forward="false" selection-start-line="133" selection-start-column="3" selection-end-line="133" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/time/LocalDateTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="1299" column="25" lean-forward="false" selection-start-line="1299" selection-start-column="25" selection-end-line="1299" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/login.jsp" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -1658,27 +1627,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/EventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/filter/BrowserFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/local/Cellar/wildfly-as/10.1.0.Final/libexec/modules/system/layers/base/javax/servlet/api/main/jboss-servlet-api_3.1_spec-1.0.0.Final.jar!/javax/servlet/http/HttpServletRequest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1686,7 +1638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2169">
           <caret line="362" column="18" lean-forward="false" selection-start-line="362" selection-start-column="18" selection-end-line="362" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1694,63 +1645,160 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="11" column="63" lean-forward="false" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/ChangePassword.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/UserLocationAssociation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="78" column="24" lean-forward="false" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
+        <state relative-caret-position="123">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/login.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/helpers/PasswordGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar!/org/apache/commons/digester/Digester.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TicketMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/ChangePasswordManagedBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml">
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/UserLocationAssotiation.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/ChangePasswordBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="154">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/ChangePassword.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="72" column="5" lean-forward="false" selection-start-line="70" selection-start-column="19" selection-end-line="72" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParkingMeterAssistant.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/helpers/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
+        <state relative-caret-position="1154">
           <caret line="88" column="49" lean-forward="false" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/da2944f1/93b68b95-9261-4725-9b08-94f4f945722d/ParkingMeterAssistant.public.user_roles">
+    <entry file="dbDummy://dbtable:/da2944f1/93b68b95-9261-4725-9b08-94f4f945722d/ParkingMeterAssistant.public.parkingplace">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/filter/BrowserFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/da2944f1/93b68b95-9261-4725-9b08-94f4f945722d/ParkingMeterAssistant.public.users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/DashboardManagedBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="55" column="42" lean-forward="false" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/da2944f1/93b68b95-9261-4725-9b08-94f4f945722d/ParkingMeterAssistant.public.ticket">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/Cellar/wildfly-as/10.1.0.Final/libexec/modules/system/layers/base/javax/ejb/api/main/jboss-ejb-api_3.2_spec-1.0.0.Final.jar!/javax/ejb/Schedule.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/da2944f1/93b68b95-9261-4725-9b08-94f4f945722d/ParkingMeterAssistant.public.user_roles">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -1759,160 +1807,269 @@
           </column-attributes>
         </state>
       </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/NotificationBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="46" column="35" lean-forward="false" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/TicketPlaceAssociation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+        </state>
+      </provider>
     </entry>
     <entry file="dbDummy://dbtable:/da2944f1/93b68b95-9261-4725-9b08-94f4f945722d/ParkingMeterAssistant.public.userlocationassotiation">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/da2944f1/93b68b95-9261-4725-9b08-94f4f945722d/ParkingMeterAssistant.public.users">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/ChangePasswordManagedBean.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/TicketBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="287">
+          <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/da2944f1/93b68b95-9261-4725-9b08-94f4f945722d/ParkingMeterAssistant.public.notification">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/ParkingPlaceState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/Dashboard.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="150" column="49" lean-forward="false" selection-start-line="150" selection-start-column="36" selection-end-line="150" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#645#646#0" expanded="false" />
+            <element signature="e#670#671#0" expanded="false" />
+            <element signature="e#703#704#0" expanded="false" />
+            <element signature="e#731#732#0" expanded="false" />
+            <element signature="e#765#766#0" expanded="false" />
+            <element signature="e#797#798#0" expanded="false" />
+            <element signature="e#845#846#0" expanded="false" />
+            <element signature="e#887#888#0" expanded="false" />
+            <element signature="e#919#920#0" expanded="false" />
+            <element signature="e#949#950#0" expanded="false" />
+            <element signature="e#993#994#0" expanded="false" />
+            <element signature="e#1031#1032#0" expanded="false" />
+            <element signature="e#1063#1064#0" expanded="false" />
+            <element signature="e#1091#1092#0" expanded="false" />
+            <element signature="e#1133#1134#0" expanded="false" />
+            <element signature="e#1167#1168#0" expanded="false" />
+            <element signature="e#1204#1205#0" expanded="false" />
+            <element signature="e#1235#1236#0" expanded="false" />
+            <element signature="e#1285#1286#0" expanded="false" />
+            <element signature="e#1325#1326#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/TicketPlaceAssociationBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="148" column="40" lean-forward="true" selection-start-line="148" selection-start-column="40" selection-end-line="148" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/login.xhtml">
+    <entry file="dbDummy://dbtable:/da2944f1/93b68b95-9261-4725-9b08-94f4f945722d/ParkingMeterAssistant.public.userlocationassociation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/EventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="2021">
+          <caret line="187" column="89" lean-forward="false" selection-start-line="187" selection-start-column="89" selection-end-line="187" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/PlaceBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="58" column="41" lean-forward="false" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/da2944f1/93b68b95-9261-4725-9b08-94f4f945722d/ParkingMeterAssistant.public.ticketplaceassociation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/rest/NotificationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="75" column="39" lean-forward="false" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/PlaceStats.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/rest/TicketsApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/dashboard/DashboardManagedBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="47" column="34" lean-forward="false" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+        <state relative-caret-position="453">
+          <caret line="54" column="10" lean-forward="false" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1288#1289#0" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
-            <element signature="e#2733#2734#0" expanded="true" />
-            <element signature="e#2791#2792#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2904#2905#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/LocationBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="128">
+          <caret line="45" column="116" lean-forward="false" selection-start-line="45" selection-start-column="116" selection-end-line="45" selection-end-column="116" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/PlaceBean.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/ParkingPlace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="79" column="70" lean-forward="false" selection-start-line="79" selection-start-column="70" selection-end-line="79" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="480">
+          <caret line="50" column="37" lean-forward="true" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/model/ParkingPlaceState.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/rest/TicketsApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="98" column="31" lean-forward="false" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/soap/ParkingPlaceDetectorApiImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/Simulator/ParkingPlaceDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/soap/ParkingPlaceDetectorApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+        <state relative-caret-position="604">
+          <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/helpers/PasswordGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/soap/external/PlacesExternalApiImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/Dashboard.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="67" column="103" lean-forward="false" selection-start-line="67" selection-start-column="103" selection-end-line="67" selection-end-column="103" />
+        <state relative-caret-position="38">
+          <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/bean/ChangePasswordBean.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/soap/external/PlacesExternalApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="195">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar!/org/apache/commons/digester/Digester.class">
+    <entry file="file://$PROJECT_DIR$/web/simulator.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="304">
+          <caret line="127" column="47" lean-forward="false" selection-start-line="127" selection-start-column="47" selection-end-line="127" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TicketMachine.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/api/rest/external/PlacesExternalApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-308">
+          <caret line="67" column="18" lean-forward="false" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/dsiedlarz/ParkingMeterAssistant/Simulator/TestBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1340">
+          <caret line="105" column="8" lean-forward="false" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1982,7 +2139,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>commons-digester:commons-digester:1.8.1</last-edited>
+          <last-edited>org.hibernate:hibernate-annotations:3.2.0.cr1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

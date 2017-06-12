@@ -1,5 +1,8 @@
 package edu.dsiedlarz.ParkingMeterAssistant.model;
 
+import org.codehaus.jettison.json.JSONException;
+import org.codehaus.jettison.json.JSONObject;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -40,5 +43,17 @@ public class ParkingPlace {
 
     public void setState(ParkingPlaceState state) {
         this.state = state;
+    }
+
+    public JSONObject toJsonObject(){
+        JSONObject jsonObject = new JSONObject();
+        try {
+            jsonObject.put("id", id);
+            jsonObject.put("location", location.getId());
+            jsonObject.put("state", state);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return jsonObject;
     }
 }

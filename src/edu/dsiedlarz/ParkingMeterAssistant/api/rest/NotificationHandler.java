@@ -1,9 +1,12 @@
 package edu.dsiedlarz.ParkingMeterAssistant.api.rest;
 
+import edu.dsiedlarz.ParkingMeterAssistant.bean.NotificationBean;
+import edu.dsiedlarz.ParkingMeterAssistant.bean.PlaceBean;
 import edu.dsiedlarz.ParkingMeterAssistant.dashboard.EventHandler;
 import edu.dsiedlarz.ParkingMeterAssistant.helpers.HibernateSessionFactory;
 import edu.dsiedlarz.ParkingMeterAssistant.model.Event;
 import edu.dsiedlarz.ParkingMeterAssistant.model.Notification;
+import edu.dsiedlarz.ParkingMeterAssistant.model.ParkingPlace;
 import edu.dsiedlarz.ParkingMeterAssistant.model.Ticket;
 import org.apache.log4j.Logger;
 import org.codehaus.jettison.json.JSONArray;
@@ -14,6 +17,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
 import javax.ejb.ActivationConfigProperty;
+import javax.ejb.EJB;
 import javax.ejb.MessageDriven;
 import javax.jms.JMSException;
 import javax.jms.Message;
@@ -48,6 +52,12 @@ public class NotificationHandler implements MessageListener {
 
     final static Logger logger = Logger.getLogger(EventHandler.class);
 
+    @EJB
+    private NotificationBean notificationBean;
+
+    @EJB
+    private PlaceBean placeBean;
+
     @Override
     public void onMessage(Message message) {
         TextMessage msg = (TextMessage) message;
@@ -57,8 +67,13 @@ public class NotificationHandler implements MessageListener {
 
             String category = msg.getStringProperty("category");
 
+            int parkingPlaceId = event.getInt("parkingPlaceId");
+
+            ParkingPlace parkingPlace = placeBean.getParkingPlace(parkingPlaceId);
             Notification notification = new Notification();
             notification.setMessage(event.getString("message"));
+            notification.setParkingPlace(parkingPlace);
+            notification.setActive(true);
             notification.setTime(new Date());
 
             saveNotification(notification);
@@ -81,7 +96,7 @@ public class NotificationHandler implements MessageListener {
         }
         Transaction tx = session.beginTransaction();
 
-        session.save(notification);
+        session.saveOrUpdate(notification);
         tx.commit();
         session.close();
     }
@@ -121,27 +136,7 @@ public class NotificationHandler implements MessageListener {
     @Path("/{id}")
     public Response getNotifications(@PathParam("id") int id) {
         ArrayList<Notification> movies = new ArrayList<>();
-        SessionFactory sessionFactory = HibernateSessionFactory.getSessionFactory();
-        Session session = null;
-
-        try {
-            session = sessionFactory.getCurrentSession();
-        } catch (org.hibernate.HibernateException he) {
-            session = sessionFactory.openSession();
-        }
-        Transaction tx = session.beginTransaction();
-
-        String hql = "from Notification WHERE id = :id";
-        Object result = session.createQuery(hql)
-                .setParameter("id", id)
-                .uniqueResult();
-
-        if (result == null) {
-            return Response.status(Response.Status.NOT_FOUND).build();
-        }
-
-        tx.commit();
-        session.close();
-        return Response.ok(((Notification) result).toJSONObject().toString()).build();
+        Notification notification =notificationBean.getNotification(id);
+        return Response.ok(notification.toJSONObject().toString()).build();
     }
 }

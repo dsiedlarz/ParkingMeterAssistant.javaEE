@@ -4,8 +4,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
-      xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:c="http://java.sun.com/jsp/jstl/core"
-      xmlns:a4j="https://ajax4jsf.dev.java.net/ajax">
+      xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:c="http://java.sun.com/jsp/jstl/core">
+
+<!--xmlns:a4j="https://ajax4jsf.dev.java.net/ajax"-->
 <f:view>
     <h:head>
         <style type="text/css">
@@ -63,11 +64,11 @@
         </style>
     </h:head>
     <h:body>
-        <a4j:region>
-            <h:form>
-                <a4j:poll id="poll" interval="1000" enabled="true" reRender="notifications,stats,places"/>
-            </h:form>
-        </a4j:region>
+        <!--<a4j:region>-->
+            <!--<h:form>-->
+                <!--<a4j:poll id="poll" interval="1000" enabled="true" reRender="notifications,stats,places"/>-->
+            <!--</h:form>-->
+        <!--</a4j:region>-->
         <div class="header-bar">
             <span class="logo">Parking Meter Assistant</span>
         </div>
@@ -146,6 +147,8 @@
                 <br/>
                 Free: #{stats.getFree()}<br/>
                 Taken: #{stats.getTaken()}<br/>
+                Paid: #{stats.getPaid()}<br/>
+                Suspicious: #{stats.getSuspicious()}<br/>
             </div>
 
 

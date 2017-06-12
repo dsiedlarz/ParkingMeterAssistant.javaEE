@@ -51,6 +51,13 @@ public class PlaceBean {
             if (line[1] == ParkingPlaceState.TAKEN) {
                 placeStats.setTaken(Integer.valueOf(line[0].toString()));
             }
+            if (line[1] == ParkingPlaceState.PAID) {
+                placeStats.setPaid(Integer.valueOf(line[0].toString()));
+            }
+
+            if (line[1] == ParkingPlaceState.SUSPICIOUS) {
+                placeStats.setSuspicious(Integer.valueOf(line[0].toString()));
+            }
         }
 
         System.out.println(placeStats);
@@ -77,7 +84,7 @@ public class PlaceBean {
         }
         Transaction tx = session.beginTransaction();
         //noinspection JpaQlInspection
-        String hql = "FROM ParkingPlace p WHERE p.location = :location";
+        String hql = "FROM ParkingPlace p WHERE p.location = :location ORDER BY id asc ";
         List result = session.createQuery(hql)
                 .setParameter("location", location)
                 .list();
@@ -90,6 +97,43 @@ public class PlaceBean {
         session.close();
 
         return parkingPlaces;
+    }
 
+    public ParkingPlace getParkingPlace(int id) {
+        SessionFactory sessionFactory = HibernateSessionFactory.getSessionFactory();
+        Session session = null;
+
+        try {
+            session = sessionFactory.getCurrentSession();
+        } catch (org.hibernate.HibernateException he) {
+            session = sessionFactory.openSession();
+        }
+        Transaction tx = session.beginTransaction();
+
+        String hql = "from ParkingPlace WHERE id = :id";
+        Object result = session.createQuery(hql)
+                .setParameter("id", id)
+                .uniqueResult();
+
+        tx.commit();
+        session.close();
+
+        return  (ParkingPlace) result;
+    }
+
+    public void saveParkingPlace(ParkingPlace parkingPlace) {
+        SessionFactory sessionFactory = HibernateSessionFactory.getSessionFactory();
+        Session session = null;
+
+        try {
+            session = sessionFactory.getCurrentSession();
+        } catch (org.hibernate.HibernateException he) {
+            session = sessionFactory.openSession();
+        }
+        Transaction tx = session.beginTransaction();
+
+        session.saveOrUpdate(parkingPlace);
+        tx.commit();
+        session.close();
     }
 }

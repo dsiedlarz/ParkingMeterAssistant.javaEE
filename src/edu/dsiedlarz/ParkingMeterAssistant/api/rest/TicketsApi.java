@@ -1,8 +1,10 @@
 package edu.dsiedlarz.ParkingMeterAssistant.api.rest;
 
+import edu.dsiedlarz.ParkingMeterAssistant.bean.LocationBean;
 import edu.dsiedlarz.ParkingMeterAssistant.helpers.HibernateSessionFactory;
 import edu.dsiedlarz.ParkingMeterAssistant.helpers.JMSEventSender;
 import edu.dsiedlarz.ParkingMeterAssistant.model.Event;
+import edu.dsiedlarz.ParkingMeterAssistant.model.Location;
 import edu.dsiedlarz.ParkingMeterAssistant.model.ParkingPlace;
 import edu.dsiedlarz.ParkingMeterAssistant.model.Ticket;
 import org.apache.log4j.Logger;
@@ -13,6 +15,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
+import javax.ejb.EJB;
 import javax.inject.Inject;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
@@ -33,31 +36,40 @@ public class TicketsApi {
     @Inject
     JMSEventSender eventSender;
 
+    @EJB
+    private LocationBean locationBean;
+
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Response postTicket(JSONObject data) {
         try {
+            logger.info("postTicket");
+
             Ticket ticket = createTicket(data);
             saveTicket(ticket);
             sendEvent(ticket);
 
-            logger.info("postTicket");
             return Response.status(201).entity(data).build();
         } catch (JSONException e) {
             e.printStackTrace();
+            logger.error(e.getMessage());
+            logger.error(e);
         }
         return Response.status(400).entity(data).build();
     }
 
     private Ticket createTicket(JSONObject data) throws JSONException {
-        double price = data.getDouble("price");
-        long startTime = data.getLong("startTime");
-        long endTime = data.getLong("endTime");
 
+        long startTime = new Date().getTime();
+        long endTime =  startTime + data.getLong("time")*1000;
+
+        int locationId = data.getInt("location");
+        Location location = locationBean.getLocation(locationId);
         Ticket ticket = new Ticket();
 
-        ticket.setPrice(price);
+        ticket.setLocation(location);
+        ticket.setPrice(1);
         ticket.setStartTime(new Date(startTime));
         ticket.setEndTime(new Date(endTime));
 
@@ -74,10 +86,11 @@ public class TicketsApi {
         }
         Transaction tx = session.beginTransaction();
 
-        session.save(ticket);
+        session.saveOrUpdate(ticket);
+        logger.info("save ticket");
+        logger.info(ticket.toJsonObject().toString());
         tx.commit();
         session.close();
-
     }
 
     private void sendEvent(Ticket ticket) {

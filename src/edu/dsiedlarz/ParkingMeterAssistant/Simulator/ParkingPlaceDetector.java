@@ -1,6 +1,6 @@
 package edu.dsiedlarz.ParkingMeterAssistant.Simulator;
 
-import edu.dsiedlarz.ParkingMeterAssistant.api.ParkingPlaceDetectorApi;
+import edu.dsiedlarz.ParkingMeterAssistant.api.soap.ParkingPlaceDetectorApi;
 
 import javax.xml.namespace.QName;
 import javax.xml.ws.Service;
@@ -14,7 +14,7 @@ public class ParkingPlaceDetector {
 
     public static void main(String[] args) throws MalformedURLException {
         URL url = new URL("http://localhost:8080/ParkingMeterAssistant_war_exploded/ParkingPlaceDetectorApiImpl?wsdl");
-        QName qname = new QName("http://api.ParkingMeterAssistant.dsiedlarz.edu/", "ParkingPlaceDetectorApiImplService");
+        QName qname = new QName("http://soap.api.ParkingMeterAssistant.dsiedlarz.edu/", "ParkingPlaceDetectorApiImplService");
 
 
         Service service = Service.create(url, qname);

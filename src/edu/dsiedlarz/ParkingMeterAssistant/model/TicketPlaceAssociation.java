@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import java.util.Date;
 
 /**
  * Created by private on 06.06.2017.
@@ -19,6 +20,10 @@ public class TicketPlaceAssociation {
 
     @ManyToOne
     private Ticket ticket;
+
+    private Date time;
+
+    private boolean active;
 
     public int getId() {
         return id;
@@ -42,5 +47,21 @@ public class TicketPlaceAssociation {
 
     public void setTicket(Ticket ticket) {
         this.ticket = ticket;
+    }
+
+    public Date getTime() {
+        return time;
+    }
+
+    public void setTime(Date time) {
+        this.time = time;
+    }
+
+    public boolean isActive() {
+        return active;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
     }
 }

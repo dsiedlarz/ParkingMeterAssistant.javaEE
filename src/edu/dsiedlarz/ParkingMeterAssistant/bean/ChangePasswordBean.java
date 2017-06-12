@@ -70,7 +70,7 @@ public class ChangePasswordBean {
         User user = (User) result;
         user.setPasswd(hashedPassword);
 
-        session.save(user);
+        session.saveOrUpdate(user);
         tx.commit();
         session.close();
 

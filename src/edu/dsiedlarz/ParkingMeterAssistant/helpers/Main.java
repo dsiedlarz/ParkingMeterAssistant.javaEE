@@ -1,16 +1,12 @@
 package edu.dsiedlarz.ParkingMeterAssistant.helpers;
 
 import edu.dsiedlarz.ParkingMeterAssistant.model.*;
-import org.apache.tools.ant.taskdefs.condition.Not;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.AnnotationConfiguration;
 import org.hibernate.tool.hbm2ddl.SchemaExport;
-import org.hibernate.cfg.SecondPass;
-
-import java.awt.print.Book;
 
 
 /**
@@ -39,7 +35,7 @@ public class Main {
 //        book.setImię("Jan");
 //        book.setNazwisko("Kowalski");
 //        /** Saving POJO */
-//        session.save(book);
+//        session.saveOrUpdate(book);
 //        /** Commiting the changes */
 //        tx.commit();
 //        System.out.println("Record Inserted");  /** Closing Session */
@@ -69,8 +65,8 @@ public class Main {
         l1.setName("ul. Długa");
         Location l2 = new Location();
         l2.setName("ul. Krótka");
-        session.save(l1);
-        session.save(l2);
+        session.saveOrUpdate(l1);
+        session.saveOrUpdate(l2);
 
         Query query = session.createQuery("from Location WHERE id = 1");
         Location location = (Location) query.list().get(0);
@@ -81,7 +77,7 @@ public class Main {
             parkingPlace.setState(ParkingPlaceState.FREE);
             parkingPlace.setLocation(location);
             /** Saving POJO */
-            session.save(parkingPlace);
+            session.saveOrUpdate(parkingPlace);
 
         }
 
@@ -94,7 +90,7 @@ public class Main {
             parkingPlace.setState(ParkingPlaceState.FREE);
             parkingPlace.setLocation(location);
             /** Saving POJO */
-            session.save(parkingPlace);
+            session.saveOrUpdate(parkingPlace);
 
         }
 
@@ -111,7 +107,7 @@ public class Main {
 //        config.addAnnotatedClass(Ticket.class);
 //        config.addAnnotatedClass(Notification.class);
 //        config.addAnnotatedClass(TicketPlaceAssociation.class);
-        config.addAnnotatedClass(UserLocationAssotiation.class);
+        config.addAnnotatedClass(UserLocationAssociation.class);
         config.configure("hibernate.cfg.xml");
         new SchemaExport(config).create(true, true);
 

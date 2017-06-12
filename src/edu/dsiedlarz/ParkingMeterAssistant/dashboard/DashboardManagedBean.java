@@ -1,6 +1,7 @@
 package edu.dsiedlarz.ParkingMeterAssistant.dashboard;
 
 import edu.dsiedlarz.ParkingMeterAssistant.bean.LocationBean;
+import edu.dsiedlarz.ParkingMeterAssistant.bean.NotificationBean;
 import edu.dsiedlarz.ParkingMeterAssistant.bean.PlaceBean;
 import edu.dsiedlarz.ParkingMeterAssistant.helpers.HibernateSessionFactory;
 import edu.dsiedlarz.ParkingMeterAssistant.model.*;
@@ -36,6 +37,9 @@ public class DashboardManagedBean {
     @EJB
     private PlaceBean placeBean;
 
+    @EJB
+    private NotificationBean notificationBean;
+
     public Location getLocation() {
         return location;
     }
@@ -49,41 +53,8 @@ public class DashboardManagedBean {
     }
 
     public ArrayList<Notification> getActiveNotifications() {
-        ArrayList<Notification> notifications = new ArrayList<>();
-
-        if (location == null) {
-            return notifications;
-        }
-        SessionFactory sessionFactory = HibernateSessionFactory.getSessionFactory();
-        Session session = null;
-
-        try {
-            session = sessionFactory.getCurrentSession();
-        } catch (org.hibernate.HibernateException he) {
-            session = sessionFactory.openSession();
-        }
-        Transaction tx = session.beginTransaction();
-        //noinspection JpaQlInspection
-        Calendar c = Calendar.getInstance();
-        c.add(Calendar.HOUR, -1);
-        String hql = "Select n from Notification n INNER JOIN n.parkingPlace p  where n.active = true AND   n.time > :date  AND p.location = :currentLocation ";
-//        String hql = "Select n from Notification n  ";
-        List result = session.createQuery(hql)
-                .setParameter("currentLocation", location)
-                .setParameter("date", c.getTime())
-                .list();
-
-        for (Iterator iter = result.iterator(); iter.hasNext(); ) {
-            notifications.add((Notification) iter.next());
-        }
-
-        System.out.println(notifications);
-        tx.commit();
-        session.close();
-
-        return notifications;
+       return notificationBean.getActiveNotifications(location);
     }
-
 
     public PlaceStats getPlacesStatus() {
         return placeBean.getPlacesStatus(location);
@@ -116,7 +87,7 @@ public class DashboardManagedBean {
 
         notification.setActive(false);
 
-        session.save(notification);
+        session.saveOrUpdate(notification);
         tx.commit();
         session.close();
     }

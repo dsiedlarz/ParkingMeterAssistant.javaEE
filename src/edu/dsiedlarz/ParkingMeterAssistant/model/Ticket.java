@@ -6,6 +6,7 @@ import org.codehaus.jettison.json.JSONObject;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.util.Date;
@@ -21,6 +22,9 @@ public class Ticket {
     private int id;
     private Date startTime;
     private Date endTime;
+
+    @ManyToOne
+    private Location location;
     private double price;
 
     public int getId() {
@@ -55,14 +59,25 @@ public class Ticket {
         this.price = price;
     }
 
+    public Location getLocation() {
+        return location;
+    }
+
+    public void setLocation(Location location) {
+        this.location = location;
+    }
+
     public JSONObject toJsonObject() {
         JSONObject jsonObject = new JSONObject();
 
 
         try {
-            jsonObject.put("price", 3.5);
+
+            jsonObject.put("id", id);
+            jsonObject.put("price", price);
             jsonObject.put("startTime", startTime.getTime());
             jsonObject.put("endTime", endTime.getTime());
+            jsonObject.put("location", location.getId());
         } catch (JSONException e) {
             e.printStackTrace();
         }

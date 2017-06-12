@@ -25,7 +25,7 @@
   <mapping class="edu.dsiedlarz.ParkingMeterAssistant.model.Notification"/>
   <mapping class="edu.dsiedlarz.ParkingMeterAssistant.model.TicketPlaceAssociation"/>
   <mapping class="edu.dsiedlarz.ParkingMeterAssistant.model.User"/>
-  <mapping class="edu.dsiedlarz.ParkingMeterAssistant.model.UserLocationAssotiation"/>
+  <mapping class="edu.dsiedlarz.ParkingMeterAssistant.model.UserLocationAssociation"/>
 
  </session-factory>
 </hibernate-configuration>
