@@ -44,6 +44,38 @@
         <url-pattern>*.xhtml</url-pattern>
     </servlet-mapping>
 
+
+
+
+    <context-param>
+        <param-name>primefaces.PUSH_SERVER_URL</param-name>
+        <param-value>http://localhost:8080</param-value>
+    </context-param>
+
+
+
+    <servlet>
+        <servlet-name>Push Servlet</servlet-name>
+        <servlet-class>org.primefaces.push.PushServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+        <async-supported>true</async-supported>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Push Servlet</servlet-name>
+        <url-pattern>/primepush/*</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+
     <security-constraint>
         <web-resource-collection>
             <web-resource-name>HtmlAuth</web-resource-name>
@@ -71,4 +103,5 @@
     <security-role>
         <role-name>Admin</role-name>
     </security-role>
+
 </web-app>

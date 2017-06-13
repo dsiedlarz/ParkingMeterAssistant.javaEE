@@ -8,6 +8,8 @@ import edu.dsiedlarz.ParkingMeterAssistant.model.PlaceStats;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+import org.primefaces.push.EventBus;
+import org.primefaces.push.EventBusFactory;
 
 import javax.ejb.Stateless;
 import java.util.ArrayList;
@@ -135,5 +137,13 @@ public class PlaceBean {
         session.saveOrUpdate(parkingPlace);
         tx.commit();
         session.close();
+
+
+
+        System.out.println("Send notification");
+        EventBus eventBus = EventBusFactory.getDefault().eventBus();
+
+        eventBus.publish("/primepush/notify", "notify");
+        eventBus.publish("/notify", "notify");
     }
 }

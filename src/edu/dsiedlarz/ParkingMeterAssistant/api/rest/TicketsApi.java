@@ -36,6 +36,7 @@ public class TicketsApi {
     @Inject
     JMSEventSender eventSender;
 
+
     @EJB
     private LocationBean locationBean;
 

@@ -9,6 +9,10 @@ import org.hibernate.Transaction;
 
 import javax.ejb.Stateless;
 
+//import org/primefaces/push/PushServlet
+import org.primefaces.push.PushServlet;
+
+
 /**
  * Created by private on 12.06.2017.
  */
@@ -16,6 +20,8 @@ import javax.ejb.Stateless;
 public class TicketBean {
     public TicketBean() {
     }
+
+
 
     public Ticket getTicket(int id) {
 

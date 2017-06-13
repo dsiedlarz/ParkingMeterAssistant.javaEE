@@ -20,6 +20,8 @@
           <element id="library" level="project" name="Java EE 6-Java EE 6" />
           <element id="library" level="project" name="commons-digester:commons-digester:1.8.1" />
           <element id="library" level="project" name="com.sun.faces:jsf-api:2.1.2" />
+          <element id="library" level="project" name="primefaces-5.2" />
+          <element id="library" level="project" name="org.atmosphere:atmosphere-runtime:2.4.3" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="ParkingMeterAssistant/ejb/EJB" />

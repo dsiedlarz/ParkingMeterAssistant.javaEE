@@ -63,7 +63,6 @@ public class NotificationBean {
         Calendar c = Calendar.getInstance();
         c.add(Calendar.HOUR, -1);
         String hql = "Select n from Notification n INNER JOIN n.parkingPlace p  where n.active = true AND   n.time > :date  AND p.location = :currentLocation ";
-//        String hql = "Select n from Notification n  ";
         List result = session.createQuery(hql)
                 .setParameter("currentLocation", location)
                 .setParameter("date", c.getTime())

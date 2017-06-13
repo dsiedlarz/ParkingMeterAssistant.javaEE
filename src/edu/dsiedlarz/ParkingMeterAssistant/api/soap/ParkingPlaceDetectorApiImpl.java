@@ -1,6 +1,7 @@
 package edu.dsiedlarz.ParkingMeterAssistant.api.soap;
 
 
+import edu.dsiedlarz.ParkingMeterAssistant.bean.PlaceBean;
 import edu.dsiedlarz.ParkingMeterAssistant.helpers.HibernateSessionFactory;
 import edu.dsiedlarz.ParkingMeterAssistant.helpers.JMSEventSender;
 import edu.dsiedlarz.ParkingMeterAssistant.model.*;
@@ -11,6 +12,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
+import javax.ejb.EJB;
 import javax.inject.Inject;
 import javax.jws.WebService;
 
@@ -25,6 +27,9 @@ public class ParkingPlaceDetectorApiImpl implements ParkingPlaceDetectorApi {
     public boolean tookPlace(int id) {
         return changeParkingPlaceStatus(id, ParkingPlaceState.TAKEN);
     }
+
+    @EJB
+    PlaceBean placeBean;
 
     @Override
     public boolean freePlace(int id) {
@@ -47,7 +52,8 @@ public class ParkingPlaceDetectorApiImpl implements ParkingPlaceDetectorApi {
         if (query.list().size() == 1) {
             ParkingPlace parkingPlace = (ParkingPlace) query.list().get(0);
             parkingPlace.setState(state);
-            session.saveOrUpdate(parkingPlace);
+            placeBean.saveParkingPlace(parkingPlace);
+//            session.saveOrUpdate(parkingPlace);
             sendEvent(id, state);
             response = true;
         } else {
